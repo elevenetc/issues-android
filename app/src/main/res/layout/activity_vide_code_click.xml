@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view_code_click.ViewCodeClick">
+
+    <Button
+        android:id="@+id/btn_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_a" />
+
+    <Button
+        android:id="@+id/btn_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_b" />
+
+    <com.elevenetc.issues.android.view_code_click.TransparentClickView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#64ff0000">
+
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_behind_transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btn behind" />
+
+    </com.elevenetc.issues.android.view_code_click.TransparentClickView>
+
+
+</LinearLayout>
